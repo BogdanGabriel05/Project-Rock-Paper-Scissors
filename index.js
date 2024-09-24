@@ -18,4 +18,8 @@ function getHumanChoice() {
 }
 getHumanChoice();
 
+// Score variables
+const humanScore = 0;
+const computerScore = 0;
+
 
