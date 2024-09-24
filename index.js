@@ -14,12 +14,22 @@ getComputerChoice();
 // Human's choice code
 function getHumanChoice() {
     let humanChoice = prompt("Enter your choice!")
-    return humanChoice;
+    // Made the user input case sensitive
+    let firstLetter = humanChoice.slice(0, 1).toUpperCase();
+    let restOfWord = humanChoice.slice(1).toLowerCase();
+    let wholeWord = firstLetter + restOfWord;
+    return wholeWord;
+
 }
 getHumanChoice();
 
 // Score variables
 const humanScore = 0;
 const computerScore = 0;
+
+// Game round
+function playRound(humanChoice, computerChoice) {
+
+}
 
 
