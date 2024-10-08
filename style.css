@@ -1,0 +1,30 @@
+* {
+     padding: 0;
+     margin: 0;
+     box-sizing: border-box;
+}
+
+
+.buttons {
+    background-color: lightgreen;
+    width: auto;
+    height: 500px;
+    display: flex;
+    justify-content: space-around; 
+    align-items: center;
+}
+
+
+.button {
+    width: 100px;
+    height: 50px;
+    border: 5px solid white;
+    border-radius: 10%;
+    color: white;
+    background-color: lightgreen;
+    font-size: large;
+}
+
+h1 {
+    color: white;
+}
