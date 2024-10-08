@@ -110,16 +110,3 @@ playGame();
 
 
 
-
-// if (humanSelection === "Rock" && computerSelection === "Scissors") {
-//     console.log("You lose! Rock beats scissors") 
-// } else if (computerSelection === "Rock" && humanSelection === "Scissors") {
-//     console.log("You lose! Rock beats scissors.")
-// } else if (humanSelection === "Paper" && computerSelection === "Rock") {
-//     console.log("You lose! Paper beats rock.") 
-// } else if (computerSelection === "Paper" && humanSelection === "Rock") {
-//     console.log("You lose! Paper beats rock.")
-// } else if (humanSelection === "Scissors" && computerSelection === "Paper") {
-//     console.log("You lose! Scissors beats paper.")
-// } else if(computerSelection === "Scissors" && humanSelection === "Paper") {
-//     console.log("You lose! Scissors beats paper.")
