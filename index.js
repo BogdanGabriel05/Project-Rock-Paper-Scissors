@@ -35,8 +35,8 @@ let ties = 0;
 
 // Game round function
 function playRound(humanChoice, computerChoice) {
-    console.log(`Human chose: ${humanChoice}`);
-    console.log(`Computer chose: ${computerChoice}`);
+    console.log("Human chose: " + humanChoice);
+    console.log("Computer chose: " + computerChoice);
 
     if (humanChoice === computerChoice) {
         ties++;
@@ -47,23 +47,23 @@ function playRound(humanChoice, computerChoice) {
         (humanChoice === "Paper" && computerChoice === "Rock")
     ) {
         humanScore++;
-        console.log(`${humanChoice} beats ${computerChoice}, You Win!`);
+        console.log(humanChoice + " beats " + computerChoice + ", You Win!")
     } else {
         computerScore++;
-        console.log(`${computerChoice} beats ${humanChoice}, You Lose!`);
+        console.log(computerChoice + " beats " + humanChoice + ", You Lose!")
     }
 }
+
+
 
 // Game loop (Best of 5 rounds)
 function playGame() {
     // logic that plays 5 games, i < 5;
-    for (let i = 0; i < 1; i++) {           
-        const humanSelection = getHumanChoice();
-        const computerSelection = getComputerChoice();
-        playRound(humanSelection, computerSelection);
+    for (let i = 0; i < 5; i++) {          
+        playRound(getHumanChoice(), getComputerChoice()); 
     }
-
-    console.log("Final Scores:");
+ 
+    console.log("Final Score:");
     console.log("Human: " + humanScore);
     console.log("Computer: " + computerScore);
     console.log("Ties: " + ties);
