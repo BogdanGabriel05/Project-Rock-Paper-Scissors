@@ -15,9 +15,7 @@
 }
 
 
-.btn-one,
-.btn-two,
-.btn-three {
+button {
     width: 100px;
     height: 50px;
     border: 5px solid white;
